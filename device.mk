@@ -32,3 +32,6 @@ PRODUCT_PACKAGES += \
 
 # call the common setup
 $(call inherit-product, device/shift/mt6797-common/common.mk)
+
+# call the proprietary setup
+$(call inherit-product, vendor/shift/SHIFT6m/SHIFT6m-vendor.mk)
